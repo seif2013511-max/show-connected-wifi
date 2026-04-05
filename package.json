@@ -1,0 +1,21 @@
+{
+  "name": "network-scanner",
+  "version": "1.0.1",
+  "description": "Network Scanner Tool - Educational Use Only",
+  "main": "scanner.js",
+  "scripts": {
+    "start": "node server.js",
+    "scan": "node scanner.js",
+    "dev": "nodemon server.js",
+    "server": "node server.js",
+    "vercel-build": "echo 'Ready for Vercel deployment!'"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Network Scanner Team",
+  "license": "MIT"
+}
