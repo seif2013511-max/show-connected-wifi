@@ -1,0 +1,1 @@
+# خطة إصلاح مشكلة السيرفر\n\n## الخطوات:\n\n- [x] 1. إضافة script \"server\" في package.json (مع إصلاح JSON comma)\n- [x] 2. تعديل server.js: serve public/index.html + API + port 8080 (fixed regex + static serving)\n- [ ] 3. تحديث run.sh\n- [x] 4. `npm run server` (اختبار)\n- [ ] 5. test الموقع\n\n## الحالة: server.js مُحدث وجاهز للتشغيل 🚀
